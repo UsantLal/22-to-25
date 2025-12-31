@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 // For Vercel/Netlify: Keep base as '/'
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Change to '/YOUR_REPO_NAME/' for GitHub Pages
+  base: '/22-to-25/', // GitHub Pages will serve under /22-to-25/
   build: {
     outDir: 'dist',
   },
